@@ -1,0 +1,22 @@
+{
+  "name": "healthcare-appointment-manager",
+  "version": "1.0.0",
+  "description": "Full-stack clinic booking platform with AI pre-visit summaries, structured prescriptions, and automated medication reminders",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "cd server && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "migrate": "cd server && npm run migrate",
+    "seed": "cd server && npm run seed",
+    "test": "cd server && npx vitest run",
+    "test:watch": "cd server && npx vitest"
+  },
+  "keywords": ["healthcare", "appointment", "booking", "clinic", "ai", "llm"],
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
