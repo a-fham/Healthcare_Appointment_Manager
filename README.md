@@ -1,4 +1,6 @@
-# Ashgrove , Healthcare Appointment & Follow-up Manager
+## Ashgrove , Healthcare Appointment & Follow-up Manager
+
+**Live Deployment :** https://healthcareappointmentmanager-production.up.railway.app
 
 A full-stack clinic booking platform where patients book consultations, describe symptoms, and receive AI-generated care summaries , while doctors see a triage-sorted queue, record visit notes, and issue structured prescriptions. Double-booking is structurally impossible. Notification and calendar failures never break a user flow.
 
